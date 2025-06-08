@@ -1,0 +1,20 @@
+{
+  "name": "domino-game-server",
+  "version": "1.0.0",
+  "description": "Multiplayer Domino Game Server - Standalone Version",
+  "main": "standalone-server.js",
+  "scripts": {
+    "start": "node standalone-server.js",
+    "dev": "node standalone-server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["domino", "game", "multiplayer", "socket.io", "arabic"],
+  "author": "Domino Game Team",
+  "license": "MIT",
+  "dependencies": {
+    "socket.io": "^4.7.5"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
